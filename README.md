@@ -33,6 +33,17 @@ cp -R visual-style-dna-replicator ~/.codex/skills/
 使用 $visual-style-dna-replicator 分析这组参考图，把它转换成可复刻的风格系统。
 ```
 
+## 安装到其他 Agent
+
+支持通用 Agent Skills 目录的运行环境，可以直接安装到：
+
+```bash
+mkdir -p ~/.agents/skills
+git clone https://github.com/hanfeer/visual-style-dna-replicator.git ~/.agents/skills/visual-style-dna-replicator
+```
+
+若目标 Agent 使用自己的 Skill 目录，把整个仓库复制到它的 skills 目录即可；必须保留 `SKILL.md`、`agents/` 和 `references/` 的相对结构。
+
 ## 目录
 
 ```text
