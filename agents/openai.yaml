@@ -1,0 +1,8 @@
+interface:
+  display_name: "Visual Style DNA Replicator"
+  short_description: "把参考图拆解成可复刻、可修改、可持续生成的视觉系统"
+  brand_color: "#C9963B"
+  default_prompt: "Use $visual-style-dna-replicator to analyze these reference images and rebuild their visual DNA as a reusable generation system."
+
+policy:
+  allow_implicit_invocation: true
